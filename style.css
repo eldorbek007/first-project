@@ -1,0 +1,386 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #272D38;
+}
+a{
+    text-decoration: none;
+}
+button{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    padding: 10px 31px;
+    background-color:#8EADD5;
+    border-radius: 8px;
+    border: 0;
+}
+li{
+    list-style: none;
+}
+header{
+    margin-bottom: 95px;
+}
+.navbar{
+    width: 1076px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+.Nright{
+    display: flex;
+    align-items: center;
+}
+.Nright i{
+    display: none;
+    font-size: 20px;
+}
+.Nright ul{
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+.Nright li a{
+    font-weight: 400;
+    font-size: 18px;
+}
+.logo a{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/*build*/
+
+.build{
+    margin-bottom: 157px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    width: 1065px;
+    margin: 0 auto;
+}
+
+.build .container{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    width: 540px;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+.Bright img{
+    width: 100%;
+}
+.Bleft p{
+    width: 525px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 39px;
+}
+
+/*companies*/
+
+.companies{
+    margin-bottom: 136px;
+}
+.companies .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Cyozuv{
+    margin-bottom: 16px;
+}
+.Cyozuv p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #667085;
+}
+.logos{
+    display: flex;
+    gap: 115px;
+    background-color: #F6F6F6;
+    padding: 22px 24px;
+    border-radius: 8px;
+}
+.logos img{
+    width: 100%;
+}
+
+/*design*/
+
+.design{
+    margin-bottom: 136px;
+}
+.design .container{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.dizayn, .costume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.design h2{
+    width: 435.69px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 25.55px;
+}
+.design p{
+    width: 392px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+.Dleft img{
+    width: 100%;
+}
+.Cright img{
+    width: 100%;
+}
+
+/*testimons*/
+
+.testimons{
+    margin-bottom: 136px;
+}
+.testimons .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tyozuv{
+    text-align: center;
+    margin-bottom: 38.65px;
+}
+.tyozuv p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.tyozuv h2{
+    width: 435.69px;
+    font-weight: 700;
+    font-size: 48px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.card{
+    width: 345px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    text-align: center;
+    padding: 32px;
+    padding-bottom: 70px;
+}
+
+.card h2{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+.card p{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/*support*/
+
+.support{
+    margin-bottom: 138px;
+}
+.support .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+}
+.Sright h2{
+    width: 361px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.Sright p{
+    width: 360px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.Sleft img{
+    width: 100%;
+}
+
+/*footer*/
+
+footer{
+    background-color: #F6F6F6;
+}
+.tepa{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 92px;
+    padding-top: 105px;
+}
+.tepa .ustun:nth-child(1) {
+    width: 189.29px;
+}
+.tepa .ustun:nth-child(1) h2{
+    margin-bottom: 32px;
+}
+.ustun h2{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.ustun a{
+    font-weight: 300;
+    font-size: 16px;
+}
+.ustun li{
+    margin-top: 24px;
+}
+.past{
+    font-weight: 300;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0;
+}
+
+@media screen and (max-width: 1093px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    button{
+        font-size: 14px;
+        padding: 10px 24px;
+    }
+    .Nright ul{
+        display: none;
+    }
+    .Nright i{
+        display: inline-block;
+    }
+    .navbar{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .build .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        font-size: 40px;
+        width: 378px;
+    }
+    .Bleft p{
+       
+        width: 378px;
+        margin-bottom: 24px;
+    }
+    .logos{
+        display: flex;
+        gap: 29px;
+    }
+    .logos img{
+        width: 50px;
+    }
+    .dizayn, .costume{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .dizayn{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .design h2{
+        font-size: 32px;
+        width: 380px;
+    }
+    .design p{
+        font-size: 14px;
+        width: 380px;
+    }
+    .design i{
+        transform: rotate(90deg);
+    }
+    .design img{
+        width: 375px;
+    }
+    .tyozuv{
+        margin-bottom: 16px;
+    }
+    .tyozuv p{
+        font-size: 12px;
+    }
+    .tyozuv h2{
+        width: 380px;
+        font-size: 32px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .card img{
+        width: 141px;
+        margin-bottom: 8px;
+    }
+    .Sright h2{
+        font-size: 32px;
+    }
+    .Sleft{
+        display: none;
+    }
+    .support .container{
+        text-align: center;
+        padding: 55px 35px;
+    }
+    footer .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .tepa{
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        text-align: center;
+    }
+    .past{
+        font-size: 16px;
+    }
+}
