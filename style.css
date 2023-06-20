@@ -11,6 +11,9 @@
 a{
     text-decoration: none;
 }
+a:hover{
+    opacity: .7;
+}
 button{
     font-weight: 600;
     font-size: 16px;
